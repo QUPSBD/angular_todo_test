@@ -12,4 +12,9 @@ export class AppComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  title = 'angular-unit-testing to do app';
+
+  addNum(num1: number, num2: number): number{
+    return num1 + num2
+  }
 }
